@@ -1,0 +1,34 @@
+<html>
+<head>
+<meta charset="utf-8">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10010068-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<!--
+<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+-->
+<style>
+.jumbotexture {
+    background-image: url('images/texture.png')
+}
+</style>
+</head>
+<div class="container">
+    {% include header.html %}
+    <div class="jumbotron jumbotexture">
+        <h1>{{ page.title }}</h1>
+        <p> {{ page.description }} </p>
+    </div>
+    <div class="row marketing">
+        <p>{{content}}</p>
+    </div>
+</div>
+</html>

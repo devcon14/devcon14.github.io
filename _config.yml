@@ -1,4 +1,6 @@
 name: Mobilescanning
-domain: 127.0.0.1:4000
+domain: www.mobilescanning.co.za
 email: support@mobilescanning.co.za
 url: http://www.mobilescanning.co.za
+port: 80
+drafts: 1

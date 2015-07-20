@@ -1,0 +1,13 @@
+<form class="form-horizontal" action="//formspree.io/{{site.email}}" method="POST">
+    <input type="text" name="_gotcha" style="display:none" />
+    <input type="hidden" name="_next" value="//{{site.domain}}/thanks.html" />
+    <div class="form-group">
+        <input type="email" size="50" name="_replyto" placeholder="Your email">
+    </div>
+    <div class="form-group">
+        <textarea name="body" rows="5" cols="50" placeholder="Your query"></textarea>
+    </div>
+    <div class="form-group">
+        <input type="submit" class="btn btn-default" value="Send">
+    </div>
+</form>

@@ -1,0 +1,49 @@
+---
+---
+
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro)
+// http://theultralinx.com/2013/04/free-alternative-font-gotham-proxima-nova/
+@import url(http://fonts.googleapis.com/css?family=Montserrat)
+
+// Trying out formspree fonts
+// proxima-nova-soft, sans-serif
+// source-code-pro, monospace
+
+// $font-stack:    Montserrat, source-code-pro, monospace
+// $font-stack:    'Source Code Pro', 'Times New Roman'
+// $font-stack:    'Montserrat', 'Times New Roman'
+$font-stack: 'Montserrat', 'sans-serif'
+$primary-color: #333
+
+.jumbotexture
+  background-image: url('../images/texture.png')
+  // this is appearing in css/...
+
+html *
+  font-family: $font-stack
+
+// body
+  font: $font-stack
+
+input
+  font: $font-stack
+  width: 20em
+  padding: 1em
+
+textarea
+  width: 20em
+  padding: 1em
+
+p
+  font: $font-stack
+
+a:visited
+  color: $primary-color
+  font: 100% $font-stack
+
+a:link
+  color: $primary-color
+  font: 100% $font-stack
+
+a:hover
+  color: black

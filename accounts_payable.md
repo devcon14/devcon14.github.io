@@ -35,6 +35,23 @@ It is a system that is easy for suppliers to adopt and streamlines costly
 invoice processing systems.
 
 {% comment %}
+Shoeboxed pricing range
+{% endcomment %}
+
+# PROMOTION
+
+DIY
+Free, 5 docs per month.
+
+Lite
+$9.95, 50 docs per month.
+
+Classic
+$29.95, 150 per month.
+
+Get your coupon code, [try me now]('coupon.html')
+
+{% comment %}
 
 Minimum template match confidence is used to ensure correct invoice information.
 
